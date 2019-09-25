@@ -1,0 +1,50 @@
+.main {
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url(../img/bg/main.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        padding-top: 9px;
+        text-align: center;
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__header {
+        color: #ec644b;
+        font-family: Roboto Condensed, sans-serif;
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        color: #ffffff;
+        font-family: Roboto Condensed, sans-serif;
+        font-size: 42px;
+        line-height: 42px;
+        text-transform: uppercase;
+    }
+    &__elips {
+        padding: 38px 0 27px 0;
+    }
+    &__promo {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 39px;
+    }
+    &__info {
+        width: 285px;
+        img {
+            width: 67px;
+            height: 54px;
+        }
+    }
+    &__title {
+        color: #ffffff;
+        margin-top: 16px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+}
