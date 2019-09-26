@@ -1,6 +1,9 @@
-.agent {
+.insert {
     padding: 58px 0 75px 0;
-    background: url(../img/bg/managers.jpg) center (center/cover) no-repeat;
+    background: url(../img/bg/china.jpg) center (center/cover) no-repeat;
+    &-managers {
+        background: url(../img/bg/managers.jpg) center (center/cover) no-repeat;
+    }
     &__item {
         display: flex;
         justify-content: center;
