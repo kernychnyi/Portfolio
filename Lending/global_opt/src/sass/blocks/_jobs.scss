@@ -1,0 +1,37 @@
+.jobs {
+    padding: 51px 0 57px 0;
+    position: relative;
+    hr {
+        width: 148px;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: $main-color; 
+        background-color: $main-color;
+        height: 1px;
+    }
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 360px;
+    }
+    &__subtitle {
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 28px;
+        line-height: 18px;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+}
